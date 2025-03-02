@@ -1,0 +1,60 @@
+html {
+    --main-color: rgb(69, 69, 220);
+    background-color: var(--main-color);
+
+}
+
+.field-login {
+
+    max-width: 40rem;
+    width: 70%;
+    background-color: white;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 28px 28px;
+}
+
+.input {
+    border: 1px solid transparent;
+    border-bottom-color: var(--main-color);
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.login {
+
+    margin: 0 0 16px;
+}
+
+.div-separate {
+    display: flex;
+
+
+}
+
+.btn {
+    font-size: 16px;
+    padding: 4px 12px;
+    text-transform: uppercase;
+    border: none;
+
+}
+
+.rgstr {
+
+    background-color: white;
+    color: var(--main-color)
+}
+
+.log {
+    background-color: var(--main-color);
+    color: white;
+
+}
+
+.link-recoverpass {
+    flex-grow: 1;
+    text-align: right;
+    text-decoration: none;
+}
